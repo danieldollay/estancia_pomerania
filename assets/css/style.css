@@ -616,6 +616,11 @@ header .container nav a:hover {
   right: 20px;
   z-index: 100;
 }
+
+.whatsapp-flutuante svg {
+  max-width: 100%;
+  max-height: 100%;
+}
 footer {
   background-color: var(--cor-principal);
   padding: 30px 0;
@@ -782,6 +787,11 @@ footer .bottom p {
 
    {
     font-size: 24px;
+  }
+
+  .whatsapp-flutuante {
+    width: 60px;
+    height: 60px;
   }
 }
 @media screen and (max-width: 490px) {
